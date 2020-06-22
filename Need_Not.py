@@ -5,7 +5,7 @@ import math
 
 domain = 'localhost:7000'
 
-token = 'NzI0NDU1NzI0NTkxMjE4NzQy.XvAcDQ.BZBXswqyl9xWL5g2-bLKkQbzz18'
+token = 'no'
 
 client = commands.Bot(command_prefix='n!')
 client.remove_command('help')
