@@ -3,13 +3,13 @@ from discord.ext import commands
 import requests
 import math
 
-domain = 'localhost:7000'
+domain = '104.238.220.12:25528'
 
 token = 'no'
 
 client = commands.Bot(command_prefix='n!')
 client.remove_command('help')
-#read... set... goo..!
+#ready... set... goo..!
 @client.event
 async def on_ready():
     await client.change_presence(activity=discord.Game('!nhelp|version 1.0 now out!'))
