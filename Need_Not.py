@@ -3,7 +3,7 @@ from discord.ext import commands
 import requests
 import math
 
-domain = '104.238.220.12:25528'
+domain = '104.238.220.12:25533'
 
 token = 'no'
 
